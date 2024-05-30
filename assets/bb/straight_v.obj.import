@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/straight_v.obj-3346683570cab470a2e15629029b2ecf.mesh"
+
+[deps]
+
+files=[ "res://.import/straight_v.obj-3346683570cab470a2e15629029b2ecf.mesh" ]
+
+source_file="res://assets/bb/straight_v.obj"
+dest_files=[ "res://.import/straight_v.obj-3346683570cab470a2e15629029b2ecf.mesh", "res://.import/straight_v.obj-3346683570cab470a2e15629029b2ecf.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

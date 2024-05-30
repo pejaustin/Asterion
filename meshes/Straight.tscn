@@ -1,0 +1,18 @@
+[gd_scene format=2]
+
+[node name="Straight" type="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0 )
+
+[node name="floor" type="CSGBox" parent="."]
+width = 16.0
+depth = 16.0
+
+[node name="CSGBox2" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8, 7 )
+width = 16.0
+height = 16.0
+
+[node name="CSGBox3" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8, -7 )
+width = 16.0
+height = 16.0

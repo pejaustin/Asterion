@@ -1,0 +1,165 @@
+[gd_scene load_steps=19 format=2]
+
+[ext_resource path="res://UI.gd" type="Script" id=1]
+[ext_resource path="res://assets/Keyboard & Controller Keys/up_disabled.png" type="Texture" id=2]
+[ext_resource path="res://ui_theme.tres" type="Theme" id=3]
+[ext_resource path="res://assets/Keyboard & Controller Keys/up_out.png" type="Texture" id=4]
+[ext_resource path="res://assets/Keyboard & Controller Keys/up_selected.png" type="Texture" id=5]
+[ext_resource path="res://assets/Keyboard & Controller Keys/up_normal.png" type="Texture" id=6]
+[ext_resource path="res://assets/Keyboard & Controller Keys/down_disabled.png" type="Texture" id=7]
+[ext_resource path="res://assets/Keyboard & Controller Keys/down_normal.png" type="Texture" id=8]
+[ext_resource path="res://assets/Keyboard & Controller Keys/down_selected.png" type="Texture" id=9]
+[ext_resource path="res://assets/Keyboard & Controller Keys/down_out.png" type="Texture" id=10]
+[ext_resource path="res://assets/Keyboard & Controller Keys/left_disabled.png" type="Texture" id=11]
+[ext_resource path="res://assets/Keyboard & Controller Keys/left_normal.png" type="Texture" id=12]
+[ext_resource path="res://assets/Keyboard & Controller Keys/left_out.png" type="Texture" id=13]
+[ext_resource path="res://assets/Keyboard & Controller Keys/left_selected.png" type="Texture" id=14]
+[ext_resource path="res://assets/Keyboard & Controller Keys/right_selected.png" type="Texture" id=15]
+[ext_resource path="res://assets/Keyboard & Controller Keys/right_disabled.png" type="Texture" id=16]
+[ext_resource path="res://assets/Keyboard & Controller Keys/right_normal.png" type="Texture" id=17]
+[ext_resource path="res://assets/Keyboard & Controller Keys/right_out.png" type="Texture" id=18]
+
+[node name="UI" type="CanvasLayer"]
+script = ExtResource( 1 )
+
+[node name="HUD" type="MarginContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_constants/margin_right = 16
+custom_constants/margin_top = 16
+custom_constants/margin_left = 16
+custom_constants/margin_bottom = 16
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="HUD"]
+margin_left = 16.0
+margin_top = 16.0
+margin_right = 1008.0
+margin_bottom = 584.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Container" type="Container" parent="HUD/HBoxContainer"]
+margin_right = 267.0
+margin_bottom = 568.0
+size_flags_horizontal = 3
+
+[node name="Container2" type="Container" parent="HUD/HBoxContainer"]
+margin_left = 271.0
+margin_right = 721.0
+margin_bottom = 568.0
+rect_min_size = Vector2( 450, 0 )
+size_flags_horizontal = 3
+
+[node name="controls" type="VBoxContainer" parent="HUD/HBoxContainer"]
+margin_left = 725.0
+margin_right = 992.0
+margin_bottom = 568.0
+size_flags_horizontal = 3
+custom_constants/separation = 0
+
+[node name="Label" type="Label" parent="HUD/HBoxContainer/controls"]
+margin_right = 267.0
+margin_bottom = 14.0
+text = "test label"
+align = 1
+valign = 1
+
+[node name="Container" type="Container" parent="HUD/HBoxContainer/controls"]
+margin_top = 14.0
+margin_right = 267.0
+margin_bottom = 404.0
+rect_min_size = Vector2( 0, 390 )
+size_flags_vertical = 3
+
+[node name="HBoxContainer" type="HBoxContainer" parent="HUD/HBoxContainer/controls"]
+margin_top = 404.0
+margin_right = 267.0
+margin_bottom = 486.0
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Container2" type="Container" parent="HUD/HBoxContainer/controls/HBoxContainer"]
+margin_right = 86.0
+margin_bottom = 82.0
+size_flags_horizontal = 3
+
+[node name="up" type="TextureButton" parent="HUD/HBoxContainer/controls/HBoxContainer"]
+margin_left = 90.0
+margin_right = 176.0
+margin_bottom = 82.0
+size_flags_horizontal = 3
+theme = ExtResource( 3 )
+texture_normal = ExtResource( 4 )
+texture_pressed = ExtResource( 2 )
+texture_hover = ExtResource( 6 )
+texture_disabled = ExtResource( 2 )
+texture_focused = ExtResource( 5 )
+expand = true
+stretch_mode = 5
+
+[node name="Container" type="Container" parent="HUD/HBoxContainer/controls/HBoxContainer"]
+margin_left = 180.0
+margin_right = 267.0
+margin_bottom = 82.0
+size_flags_horizontal = 3
+
+[node name="buttons" type="HBoxContainer" parent="HUD/HBoxContainer/controls"]
+margin_top = 486.0
+margin_right = 267.0
+margin_bottom = 568.0
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="left" type="TextureButton" parent="HUD/HBoxContainer/controls/buttons"]
+margin_right = 86.0
+margin_bottom = 82.0
+size_flags_horizontal = 3
+texture_normal = ExtResource( 13 )
+texture_pressed = ExtResource( 11 )
+texture_hover = ExtResource( 12 )
+texture_disabled = ExtResource( 11 )
+texture_focused = ExtResource( 14 )
+expand = true
+stretch_mode = 5
+
+[node name="down" type="TextureButton" parent="HUD/HBoxContainer/controls/buttons"]
+margin_left = 90.0
+margin_right = 176.0
+margin_bottom = 82.0
+size_flags_horizontal = 3
+texture_normal = ExtResource( 10 )
+texture_pressed = ExtResource( 7 )
+texture_hover = ExtResource( 8 )
+texture_disabled = ExtResource( 7 )
+texture_focused = ExtResource( 9 )
+expand = true
+stretch_mode = 5
+
+[node name="right" type="TextureButton" parent="HUD/HBoxContainer/controls/buttons"]
+margin_left = 180.0
+margin_right = 267.0
+margin_bottom = 82.0
+size_flags_horizontal = 3
+texture_normal = ExtResource( 18 )
+texture_pressed = ExtResource( 16 )
+texture_hover = ExtResource( 17 )
+texture_disabled = ExtResource( 16 )
+texture_focused = ExtResource( 15 )
+expand = true
+stretch_mode = 5
+
+[node name="RayCast" type="RayCast" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0 )
+cast_to = Vector3( 0, -3, 0 )
+[connection signal="pressed" from="HUD/HBoxContainer/controls/HBoxContainer/up" to="." method="direction_pressed" binds= [ "up" ]]
+[connection signal="pressed" from="HUD/HBoxContainer/controls/buttons/left" to="." method="direction_pressed" binds= [ "left" ]]
+[connection signal="pressed" from="HUD/HBoxContainer/controls/buttons/down" to="." method="direction_pressed" binds= [ "down" ]]
+[connection signal="pressed" from="HUD/HBoxContainer/controls/buttons/right" to="." method="direction_pressed" binds= [ "right" ]]

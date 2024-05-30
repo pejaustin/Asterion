@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/dungeon_corner.obj-e1f75026fc94e3759433c10a80530ef9.mesh"
+
+[deps]
+
+files=[ "res://.import/dungeon_corner.obj-e1f75026fc94e3759433c10a80530ef9.mesh" ]
+
+source_file="res://assets/dungeon_corner.obj"
+dest_files=[ "res://.import/dungeon_corner.obj-e1f75026fc94e3759433c10a80530ef9.mesh", "res://.import/dungeon_corner.obj-e1f75026fc94e3759433c10a80530ef9.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 16, 16, 16 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

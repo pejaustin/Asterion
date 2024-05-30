@@ -1,0 +1,523 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://addons/voxel-core/classes/voxel_set.gd" type="Script" id=1]
+
+[sub_resource type="SpatialMaterial" id=1]
+
+[resource]
+script = ExtResource( 1 )
+tile_size = Vector2( 32, 32 )
+materials = [ SubResource( 1 ) ]
+VOXELS = [ {
+"color": Color( 1, 1, 1, 1 )
+}, {
+"color": Color( 1, 1, 0.8, 1 )
+}, {
+"color": Color( 1, 1, 0.6, 1 )
+}, {
+"color": Color( 1, 1, 0.4, 1 )
+}, {
+"color": Color( 1, 1, 0.2, 1 )
+}, {
+"color": Color( 1, 1, 0, 1 )
+}, {
+"color": Color( 1, 0.8, 1, 1 )
+}, {
+"color": Color( 1, 0.8, 0.8, 1 )
+}, {
+"color": Color( 1, 0.8, 0.6, 1 )
+}, {
+"color": Color( 1, 0.8, 0.4, 1 )
+}, {
+"color": Color( 1, 0.8, 0.2, 1 )
+}, {
+"color": Color( 1, 0.8, 0, 1 )
+}, {
+"color": Color( 1, 0.6, 1, 1 )
+}, {
+"color": Color( 1, 0.6, 0.8, 1 )
+}, {
+"color": Color( 1, 0.6, 0.6, 1 )
+}, {
+"color": Color( 1, 0.6, 0.4, 1 )
+}, {
+"color": Color( 1, 0.6, 0.2, 1 )
+}, {
+"color": Color( 1, 0.6, 0, 1 )
+}, {
+"color": Color( 1, 0.4, 1, 1 )
+}, {
+"color": Color( 1, 0.4, 0.8, 1 )
+}, {
+"color": Color( 1, 0.4, 0.6, 1 )
+}, {
+"color": Color( 1, 0.4, 0.4, 1 )
+}, {
+"color": Color( 1, 0.4, 0.2, 1 )
+}, {
+"color": Color( 1, 0.4, 0, 1 )
+}, {
+"color": Color( 1, 0.2, 1, 1 )
+}, {
+"color": Color( 1, 0.2, 0.8, 1 )
+}, {
+"color": Color( 1, 0.2, 0.6, 1 )
+}, {
+"color": Color( 1, 0.2, 0.4, 1 )
+}, {
+"color": Color( 1, 0.2, 0.2, 1 )
+}, {
+"color": Color( 1, 0.2, 0, 1 )
+}, {
+"color": Color( 1, 0, 1, 1 )
+}, {
+"color": Color( 1, 0, 0.8, 1 )
+}, {
+"color": Color( 1, 0, 0.6, 1 )
+}, {
+"color": Color( 1, 0, 0.4, 1 )
+}, {
+"color": Color( 1, 0, 0.2, 1 )
+}, {
+"color": Color( 1, 0, 0, 1 )
+}, {
+"color": Color( 0.8, 1, 1, 1 )
+}, {
+"color": Color( 0.8, 1, 0.8, 1 )
+}, {
+"color": Color( 0.8, 1, 0.6, 1 )
+}, {
+"color": Color( 0.8, 1, 0.4, 1 )
+}, {
+"color": Color( 0.8, 1, 0.2, 1 )
+}, {
+"color": Color( 0.8, 1, 0, 1 )
+}, {
+"color": Color( 0.8, 0.8, 1, 1 )
+}, {
+"color": Color( 0.8, 0.8, 0.8, 1 )
+}, {
+"color": Color( 0.8, 0.8, 0.6, 1 )
+}, {
+"color": Color( 0.8, 0.8, 0.4, 1 )
+}, {
+"color": Color( 0.8, 0.8, 0.2, 1 )
+}, {
+"color": Color( 0.8, 0.8, 0, 1 )
+}, {
+"color": Color( 0.8, 0.6, 1, 1 )
+}, {
+"color": Color( 0.8, 0.6, 0.8, 1 )
+}, {
+"color": Color( 0.8, 0.6, 0.6, 1 )
+}, {
+"color": Color( 0.8, 0.6, 0.4, 1 )
+}, {
+"color": Color( 0.8, 0.6, 0.2, 1 )
+}, {
+"color": Color( 0.8, 0.6, 0, 1 )
+}, {
+"color": Color( 0.8, 0.4, 1, 1 )
+}, {
+"color": Color( 0.8, 0.4, 0.8, 1 )
+}, {
+"color": Color( 0.8, 0.4, 0.6, 1 )
+}, {
+"color": Color( 0.8, 0.4, 0.4, 1 )
+}, {
+"color": Color( 0.8, 0.4, 0.2, 1 )
+}, {
+"color": Color( 0.8, 0.4, 0, 1 )
+}, {
+"color": Color( 0.8, 0.2, 1, 1 )
+}, {
+"color": Color( 0.8, 0.2, 0.8, 1 )
+}, {
+"color": Color( 0.8, 0.2, 0.6, 1 )
+}, {
+"color": Color( 0.8, 0.2, 0.4, 1 )
+}, {
+"color": Color( 0.8, 0.2, 0.2, 1 )
+}, {
+"color": Color( 0.8, 0.2, 0, 1 )
+}, {
+"color": Color( 0.8, 0, 1, 1 )
+}, {
+"color": Color( 0.8, 0, 0.8, 1 )
+}, {
+"color": Color( 0.8, 0, 0.6, 1 )
+}, {
+"color": Color( 0.8, 0, 0.4, 1 )
+}, {
+"color": Color( 0.8, 0, 0.2, 1 )
+}, {
+"color": Color( 0.8, 0, 0, 1 )
+}, {
+"color": Color( 0.6, 1, 1, 1 )
+}, {
+"color": Color( 0.6, 1, 0.8, 1 )
+}, {
+"color": Color( 0.6, 1, 0.6, 1 )
+}, {
+"color": Color( 0.6, 1, 0.4, 1 )
+}, {
+"color": Color( 0.6, 1, 0.2, 1 )
+}, {
+"color": Color( 0.6, 1, 0, 1 )
+}, {
+"color": Color( 0.6, 0.8, 1, 1 )
+}, {
+"color": Color( 0.6, 0.8, 0.8, 1 )
+}, {
+"color": Color( 0.6, 0.8, 0.6, 1 )
+}, {
+"color": Color( 0.6, 0.8, 0.4, 1 )
+}, {
+"color": Color( 0.6, 0.8, 0.2, 1 )
+}, {
+"color": Color( 0.6, 0.8, 0, 1 )
+}, {
+"color": Color( 0.6, 0.6, 1, 1 )
+}, {
+"color": Color( 0.6, 0.6, 0.8, 1 )
+}, {
+"color": Color( 0.6, 0.6, 0.6, 1 )
+}, {
+"color": Color( 0.6, 0.6, 0.4, 1 )
+}, {
+"color": Color( 0.6, 0.6, 0.2, 1 )
+}, {
+"color": Color( 0.6, 0.6, 0, 1 )
+}, {
+"color": Color( 0.6, 0.4, 1, 1 )
+}, {
+"color": Color( 0.6, 0.4, 0.8, 1 )
+}, {
+"color": Color( 0.6, 0.4, 0.6, 1 )
+}, {
+"color": Color( 0.6, 0.4, 0.4, 1 )
+}, {
+"color": Color( 0.6, 0.4, 0.2, 1 )
+}, {
+"color": Color( 0.6, 0.4, 0, 1 )
+}, {
+"color": Color( 0.6, 0.2, 1, 1 )
+}, {
+"color": Color( 0.6, 0.2, 0.8, 1 )
+}, {
+"color": Color( 0.6, 0.2, 0.6, 1 )
+}, {
+"color": Color( 0.6, 0.2, 0.4, 1 )
+}, {
+"color": Color( 0.6, 0.2, 0.2, 1 )
+}, {
+"color": Color( 0.6, 0.2, 0, 1 )
+}, {
+"color": Color( 0.6, 0, 1, 1 )
+}, {
+"color": Color( 0.6, 0, 0.8, 1 )
+}, {
+"color": Color( 0.6, 0, 0.6, 1 )
+}, {
+"color": Color( 0.6, 0, 0.4, 1 )
+}, {
+"color": Color( 0.6, 0, 0.2, 1 )
+}, {
+"color": Color( 0.6, 0, 0, 1 )
+}, {
+"color": Color( 0.4, 1, 1, 1 )
+}, {
+"color": Color( 0.4, 1, 0.8, 1 )
+}, {
+"color": Color( 0.4, 1, 0.6, 1 )
+}, {
+"color": Color( 0.4, 1, 0.4, 1 )
+}, {
+"color": Color( 0.4, 1, 0.2, 1 )
+}, {
+"color": Color( 0.4, 1, 0, 1 )
+}, {
+"color": Color( 0.4, 0.8, 1, 1 )
+}, {
+"color": Color( 0.4, 0.8, 0.8, 1 )
+}, {
+"color": Color( 0.4, 0.8, 0.6, 1 )
+}, {
+"color": Color( 0.4, 0.8, 0.4, 1 )
+}, {
+"color": Color( 0.4, 0.8, 0.2, 1 )
+}, {
+"color": Color( 0.4, 0.8, 0, 1 )
+}, {
+"color": Color( 0.4, 0.6, 1, 1 )
+}, {
+"color": Color( 0.4, 0.6, 0.8, 1 )
+}, {
+"color": Color( 0.4, 0.6, 0.6, 1 )
+}, {
+"color": Color( 0.4, 0.6, 0.4, 1 )
+}, {
+"color": Color( 0.4, 0.6, 0.2, 1 )
+}, {
+"color": Color( 0.4, 0.6, 0, 1 )
+}, {
+"color": Color( 0.4, 0.4, 1, 1 )
+}, {
+"color": Color( 0.4, 0.4, 0.8, 1 )
+}, {
+"color": Color( 0.4, 0.4, 0.6, 1 )
+}, {
+"color": Color( 0.4, 0.4, 0.4, 1 )
+}, {
+"color": Color( 0.4, 0.4, 0.2, 1 )
+}, {
+"color": Color( 0.4, 0.4, 0, 1 )
+}, {
+"color": Color( 0.4, 0.2, 1, 1 )
+}, {
+"color": Color( 0.4, 0.2, 0.8, 1 )
+}, {
+"color": Color( 0.4, 0.2, 0.6, 1 )
+}, {
+"color": Color( 0.4, 0.2, 0.4, 1 )
+}, {
+"color": Color( 0.4, 0.2, 0.2, 1 )
+}, {
+"color": Color( 0.4, 0.2, 0, 1 )
+}, {
+"color": Color( 0.4, 0, 1, 1 )
+}, {
+"color": Color( 0.4, 0, 0.8, 1 )
+}, {
+"color": Color( 0.4, 0, 0.6, 1 )
+}, {
+"color": Color( 0.4, 0, 0.4, 1 )
+}, {
+"color": Color( 0.4, 0, 0.2, 1 )
+}, {
+"color": Color( 0.4, 0, 0, 1 )
+}, {
+"color": Color( 0.2, 1, 1, 1 )
+}, {
+"color": Color( 0.2, 1, 0.8, 1 )
+}, {
+"color": Color( 0.2, 1, 0.6, 1 )
+}, {
+"color": Color( 0.2, 1, 0.4, 1 )
+}, {
+"color": Color( 0.2, 1, 0.2, 1 )
+}, {
+"color": Color( 0.2, 1, 0, 1 )
+}, {
+"color": Color( 0.2, 0.8, 1, 1 )
+}, {
+"color": Color( 0.2, 0.8, 0.8, 1 )
+}, {
+"color": Color( 0.2, 0.8, 0.6, 1 )
+}, {
+"color": Color( 0.2, 0.8, 0.4, 1 )
+}, {
+"color": Color( 0.2, 0.8, 0.2, 1 )
+}, {
+"color": Color( 0.2, 0.8, 0, 1 )
+}, {
+"color": Color( 0.2, 0.6, 1, 1 )
+}, {
+"color": Color( 0.2, 0.6, 0.8, 1 )
+}, {
+"color": Color( 0.2, 0.6, 0.6, 1 )
+}, {
+"color": Color( 0.2, 0.6, 0.4, 1 )
+}, {
+"color": Color( 0.2, 0.6, 0.2, 1 )
+}, {
+"color": Color( 0.2, 0.6, 0, 1 )
+}, {
+"color": Color( 0.2, 0.4, 1, 1 )
+}, {
+"color": Color( 0.2, 0.4, 0.8, 1 )
+}, {
+"color": Color( 0.2, 0.4, 0.6, 1 )
+}, {
+"color": Color( 0.2, 0.4, 0.4, 1 )
+}, {
+"color": Color( 0.2, 0.4, 0.2, 1 )
+}, {
+"color": Color( 0.2, 0.4, 0, 1 )
+}, {
+"color": Color( 0.2, 0.2, 1, 1 )
+}, {
+"color": Color( 0.2, 0.2, 0.8, 1 )
+}, {
+"color": Color( 0.2, 0.2, 0.6, 1 )
+}, {
+"color": Color( 0.2, 0.2, 0.4, 1 )
+}, {
+"color": Color( 0.2, 0.2, 0.2, 1 )
+}, {
+"color": Color( 0.2, 0.2, 0, 1 )
+}, {
+"color": Color( 0.2, 0, 1, 1 )
+}, {
+"color": Color( 0.2, 0, 0.8, 1 )
+}, {
+"color": Color( 0.2, 0, 0.6, 1 )
+}, {
+"color": Color( 0.2, 0, 0.4, 1 )
+}, {
+"color": Color( 0.2, 0, 0.2, 1 )
+}, {
+"color": Color( 0.2, 0, 0, 1 )
+}, {
+"color": Color( 0, 1, 1, 1 )
+}, {
+"color": Color( 0, 1, 0.8, 1 )
+}, {
+"color": Color( 0, 1, 0.6, 1 )
+}, {
+"color": Color( 0, 1, 0.4, 1 )
+}, {
+"color": Color( 0, 1, 0.2, 1 )
+}, {
+"color": Color( 0, 1, 0, 1 )
+}, {
+"color": Color( 0, 0.8, 1, 1 )
+}, {
+"color": Color( 0, 0.8, 0.8, 1 )
+}, {
+"color": Color( 0, 0.8, 0.6, 1 )
+}, {
+"color": Color( 0, 0.8, 0.4, 1 )
+}, {
+"color": Color( 0, 0.8, 0.2, 1 )
+}, {
+"color": Color( 0, 0.8, 0, 1 )
+}, {
+"color": Color( 0, 0.6, 1, 1 )
+}, {
+"color": Color( 0, 0.6, 0.8, 1 )
+}, {
+"color": Color( 0, 0.6, 0.6, 1 )
+}, {
+"color": Color( 0, 0.6, 0.4, 1 )
+}, {
+"color": Color( 0, 0.6, 0.2, 1 )
+}, {
+"color": Color( 0, 0.6, 0, 1 )
+}, {
+"color": Color( 0, 0.4, 1, 1 )
+}, {
+"color": Color( 0, 0.4, 0.8, 1 )
+}, {
+"color": Color( 0, 0.4, 0.6, 1 )
+}, {
+"color": Color( 0, 0.4, 0.4, 1 )
+}, {
+"color": Color( 0, 0.4, 0.2, 1 )
+}, {
+"color": Color( 0, 0.4, 0, 1 )
+}, {
+"color": Color( 0, 0.2, 1, 1 )
+}, {
+"color": Color( 0, 0.2, 0.8, 1 )
+}, {
+"color": Color( 0, 0.2, 0.6, 1 )
+}, {
+"color": Color( 0, 0.2, 0.4, 1 )
+}, {
+"color": Color( 0, 0.2, 0.2, 1 )
+}, {
+"color": Color( 0, 0.2, 0, 1 )
+}, {
+"color": Color( 0, 0, 1, 1 )
+}, {
+"color": Color( 0, 0, 0.8, 1 )
+}, {
+"color": Color( 0, 0, 0.6, 1 )
+}, {
+"color": Color( 0, 0, 0.4, 1 )
+}, {
+"color": Color( 0, 0, 0.2, 1 )
+}, {
+"color": Color( 0.933333, 0, 0, 1 )
+}, {
+"color": Color( 0.866667, 0, 0, 1 )
+}, {
+"color": Color( 0.733333, 0, 0, 1 )
+}, {
+"color": Color( 0.666667, 0, 0, 1 )
+}, {
+"color": Color( 0.533333, 0, 0, 1 )
+}, {
+"color": Color( 0.466667, 0, 0, 1 )
+}, {
+"color": Color( 0.333333, 0, 0, 1 )
+}, {
+"color": Color( 0.266667, 0, 0, 1 )
+}, {
+"color": Color( 0.133333, 0, 0, 1 )
+}, {
+"color": Color( 0.0666667, 0, 0, 1 )
+}, {
+"color": Color( 0, 0.933333, 0, 1 )
+}, {
+"color": Color( 0, 0.866667, 0, 1 )
+}, {
+"color": Color( 0, 0.733333, 0, 1 )
+}, {
+"color": Color( 0, 0.666667, 0, 1 )
+}, {
+"color": Color( 0, 0.533333, 0, 1 )
+}, {
+"color": Color( 0, 0.466667, 0, 1 )
+}, {
+"color": Color( 0, 0.333333, 0, 1 )
+}, {
+"color": Color( 0, 0.266667, 0, 1 )
+}, {
+"color": Color( 0, 0.133333, 0, 1 )
+}, {
+"color": Color( 0, 0.0666667, 0, 1 )
+}, {
+"color": Color( 0, 0, 0.933333, 1 )
+}, {
+"color": Color( 0, 0, 0.866667, 1 )
+}, {
+"color": Color( 0, 0, 0.733333, 1 )
+}, {
+"color": Color( 0, 0, 0.666667, 1 )
+}, {
+"color": Color( 0, 0, 0.533333, 1 )
+}, {
+"color": Color( 0, 0, 0.466667, 1 )
+}, {
+"color": Color( 0, 0, 0.333333, 1 )
+}, {
+"color": Color( 0, 0, 0.266667, 1 )
+}, {
+"color": Color( 0, 0, 0.133333, 1 )
+}, {
+"color": Color( 0, 0, 0.0666667, 1 )
+}, {
+"color": Color( 0.933333, 0.933333, 0.933333, 1 )
+}, {
+"color": Color( 0.866667, 0.866667, 0.866667, 1 )
+}, {
+"color": Color( 0.733333, 0.733333, 0.733333, 1 )
+}, {
+"color": Color( 0.666667, 0.666667, 0.666667, 1 )
+}, {
+"color": Color( 0.533333, 0.533333, 0.533333, 1 )
+}, {
+"color": Color( 0.466667, 0.466667, 0.466667, 1 )
+}, {
+"color": Color( 0.333333, 0.333333, 0.333333, 1 )
+}, {
+"color": Color( 0.266667, 0.266667, 0.266667, 1 )
+}, {
+"color": Color( 0.133333, 0.133333, 0.133333, 1 )
+}, {
+"color": Color( 0.0666667, 0.0666667, 0.0666667, 1 )
+}, {
+"color": Color( 0, 0, 0, 1 )
+} ]

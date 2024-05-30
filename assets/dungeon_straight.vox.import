@@ -1,0 +1,16 @@
+[remap]
+
+importer="MagicaVoxel.With.Extensions"
+type="Mesh"
+path="res://.import/dungeon_straight.vox-0676379f9419ed78afe4b2f23a1deae1.mesh"
+
+[deps]
+
+source_file="res://assets/dungeon_straight.vox"
+dest_files=[ "res://.import/dungeon_straight.vox-0676379f9419ed78afe4b2f23a1deae1.mesh" ]
+
+[params]
+
+Scale=0.1
+GreedyMeshGenerator=true
+SnapToGround=false

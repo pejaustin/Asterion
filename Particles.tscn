@@ -1,0 +1,35 @@
+[gd_scene load_steps=4 format=2]
+
+[sub_resource type="ParticlesMaterial" id=1]
+lifetime_randomness = 0.09
+emission_shape = 2
+emission_box_extents = Vector3( 32, 16, 32 )
+spread = 63.42
+gravity = Vector3( 0, -0.11, 0 )
+initial_velocity = 1.0
+initial_velocity_random = 0.06
+scale = 0.0
+scale_random = 0.04
+color = Color( 0.545098, 0.309804, 0.619608, 1 )
+
+[sub_resource type="SpatialMaterial" id=2]
+albedo_color = Color( 0.247059, 0.552941, 0.494118, 1 )
+emission_enabled = true
+emission = Color( 0.184314, 0.113725, 0.215686, 1 )
+emission_energy = 2.26
+emission_operator = 0
+emission_on_uv2 = false
+
+[sub_resource type="CubeMesh" id=3]
+material = SubResource( 2 )
+
+[node name="Dust" type="Particles"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 10, 0 )
+amount = 1000
+lifetime = 14.37
+preprocess = 1.33
+explosiveness = 0.04
+randomness = 0.16
+visibility_aabb = AABB( -32, -16, -32, 64, 32, 64 )
+process_material = SubResource( 1 )
+draw_pass_1 = SubResource( 3 )
